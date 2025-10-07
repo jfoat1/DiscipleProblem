@@ -7,8 +7,8 @@ public class Main {
 	public static void main(String[] args) {
 		double testtimeDisciple = timeDiscipleProblem(13, 2, 3, 7700000000d);
 		double teststudentDisciple = studentDiscipleProblem(13, 3, 50, 7700000000d);
-		System.out.println(testtimeDisciple);
-		System.out.println(teststudentDisciple);
+		System.out.println("It will take " + testtimeDisciple + " years");
+		System.out.println("For 50 years, " + teststudentDisciple + " students are required");
 	}
 
 	public static double timeDiscipleProblem(double disciples, double students, double studentYears, double population)
